@@ -2,8 +2,14 @@ doctype html
 html(lang="us")
 
   head
-    link(rel="stylesheet", href="css/empty.css")
+    title Odd and Even LIS
+    link(rel="stylesheet", href="style.css")
     script(src="js/vendor/jquery-1.10.2.js")
-    script(src="js/source/empty.js")
+    script(src="js/source/main.js")
   body
-    header
+    #container
+      h1 Odd and Even LIS
+      #interface
+        input(type="text", id="text", placeholder="Number of LIS")
+      #addListButton
+        input(type="button", value="Add LIS")

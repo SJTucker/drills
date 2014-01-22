@@ -2,8 +2,13 @@ doctype html
 html(lang="us")
 
   head
-    link(rel="stylesheet", href="css/empty.css")
+    title Photo URL
+    link(rel="stylesheet", href="css/style.css")
     script(src="js/vendor/jquery-1.10.2.js")
-    script(src="js/source/empty.js")
+    script(src="js/source/main.js")
   body
-    header
+    h1 IMAGE MAGIC
+    #control
+      input(type="text", id="textbox", placeholder="URL")
+      input(type="button", id="textButton", value="Get Image")
+    #container
